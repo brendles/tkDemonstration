@@ -17,7 +17,7 @@ class tkDemonstration(tk.Tk): #doesn't need parenthesis - takes inheritance
         tk.Tk.wm_title(self, "tkDemonstration client") #title
         
         container = tk.Frame(self) #basically the window
-        #pack can throw all the shit into one place, for quick programs
+        #pack can throw all the stuff into one place, for quick programs
         #grid is better for planned out programs
         container.pack(side="top", fill="both", expand = True)
         #define anchor, fill takes up extra space, expand takes space if there is some
